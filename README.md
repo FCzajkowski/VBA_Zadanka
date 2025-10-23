@@ -8,19 +8,22 @@ Procedura Sub oraz Function (Obie w Public/Private) <br>
 Sub - Nie zwraca nic  <br>
 Function - Cos tam zwraca <br>
 
-BTW MODUŁ TO TAKI KURWA SKRYPCIOR <br>
+
 By dodać moduł należy wybrać z paska menu Insert -> Module <br>
 Pole Name w sekcji Properties i wpisz nową nazwę dla modułu  <br>
 
 Dyrektywa ,,Option Compare Database" <br>
 Każdy nowo utworzony moduł zaczyna się od tej linii (jak np. <!Doctype HTML> w htmlu) <br>
 
-Option compare Database ma 3 opcje: <br>
-Binary - porównywanie łańcuchów operia się na binarnej reprezentacji znaków <br>
+Option Explicit - Jawna deklaracja zmiennycvh przed ich zapisaniem
 
-Text - oparta jest an lokalnym ustawieniu systemu instrukcja określające, że porównanie ciągów znaków ma być zgodne z wielkością liter ("a" -> "A") <br>
-Database - używana na poziomie modułu do wymuszenia jawnej deklaracji wszystkich zmiennych w danym module. Użyj Option  <br>
-Explicit, aby uniknąć nieprawidłowego wpisania nazwy istniejącej zmiennej lub pomyłki w kodzie, gdy zakres zmiennej jest niejasny. <br>
+Option Compare (porównywanie ciągów znaków) ma 3 opcje:
+
+Option Compare Database – porównuje napisy zgodnie z ustawieniami bazy danych (czyli zwykle bez rozróżniania wielkości liter).
+
+Option Compare Text – porównuje teksty bez uwzględniania wielkości liter (systemowo).
+
+Option Compare Binary – porównuje bajty (czyli z uwzględnieniem wielkości lite
 
 
 ------------------ <br>
