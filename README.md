@@ -1,7 +1,6 @@
 # VBA - Kartkówka
 VBA - (Visual Basics for Aplications) is język programowania stworzony przez Microsoft, używany głównie do automatyzacji zadań w aplikacjach pakietu Office. 
 
-
 VBA <br>
 mamy 2 rodzaje procedur:
 
